@@ -44,9 +44,10 @@ class _MyAppState extends State<MyApp> {
         child: Center(
           child: Column(
               children: [
+                SizedBox(height: 40,),
                 Image.asset('assets/images/suipic$pic_num.png',width: 300,height: 90,),
                 Image.asset(
-                'assets/images/ronaldo$pic_num.png', width: 900, height: 500,
+                'assets/images/ronaldo$pic_num.png', width: 900, height: 400,
               ),
                 ]
           ),
